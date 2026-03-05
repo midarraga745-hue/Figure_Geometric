@@ -9,15 +9,16 @@ var parallelogram = new Parallelogram(name: nameof(Parallelogram), a: 14.65, b: 
 var triangle = new Triangle(name: nameof(Triangle), a: 45.56, b: 12.34, c: 27.09, h: 15);
 var trapeze = new Trapeze(name: nameof(Trapeze), a: 10, b: 20, c: 30, d: 40, h: 20);
 
-var figures = new List<Figure_Geometric>
+
+var figures = new System.Collections.Generic.List<Figure_Geometric.Backend.Figure_Geometric>()
 {
     circle, square, rhombus, kite, rectangle, parallelogram, triangle, trapeze
-
 };
+
 foreach (var figure in figures)
 {
     Console.WriteLine(
-        $"{figure.Name,-15} => Area............: {figure.GetArea(),12:N5}    Perimeter: {figure.GetPerimeter(),12:N5}");
+        $"{figure.Name,-15} => Area............: {figure.GetArea(),15:N5}    Perimeter: {figure.GetPerimeter(),15:N5}");
 
 }
 
