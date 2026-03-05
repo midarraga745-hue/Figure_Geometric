@@ -1,9 +1,9 @@
 ﻿namespace Figure_Geometric.Backend;
 
-public abstract class Class1(string name)
+public abstract class Figure_Geometric(string name)
 {
     // Properties
-    public string Name { get; set; } 
+    public string Name { get; set; }
     public Figure_Geometric(string name)
     {
         Name = name;
