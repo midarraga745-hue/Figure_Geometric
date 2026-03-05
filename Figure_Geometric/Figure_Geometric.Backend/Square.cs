@@ -1,8 +1,4 @@
-﻿
-
-using System.Xml.Linq;
-
-namespace Figure_Geometric.Backend;
+﻿namespace Figure_Geometric.Backend;
 
 public class Square : Figure_Geometric
 {

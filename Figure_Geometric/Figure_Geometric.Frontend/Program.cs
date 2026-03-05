@@ -9,7 +9,7 @@ var parallelogram = new Parallelogram(name: nameof(Parallelogram), a: 14.65, b: 
 var triangle = new Triangle(name: nameof(Triangle), a: 45.56, b: 12.34, c: 27.09, h: 15);
 var trapeze = new Trapeze(name: nameof(Trapeze), a: 10, b: 20, c: 30, d: 40, h: 20);
 
-var figures = new List<Figur_Geometric>
+var figures = new List<Figure_Geometric>
 {
     circle, square, rhombus, kite, rectangle, parallelogram, triangle, trapeze
 

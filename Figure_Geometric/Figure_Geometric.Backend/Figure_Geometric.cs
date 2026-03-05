@@ -1,6 +1,6 @@
 ﻿namespace Figure_Geometric.Backend;
 
-public abstract class Figure_Geometric(string name)
+public abstract class Figure_Geometric
 {
     // Properties
     public string Name { get; set; }
