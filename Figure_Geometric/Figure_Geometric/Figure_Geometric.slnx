@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../Figure_Geometric.Backend/Figure_Geometric.Backend.csproj" />
+  <Project Path="../Figure_Geometric.Frontend/Figure_Geometric.Frontend.csproj" />
+  <Project Path="Figure_Geometric.csproj" />
+</Solution>
