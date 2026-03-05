@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/01/">
+    <Project Path="../Shared/Shared.csproj" />
+  </Folder>
+  <Folder Name="/02/">
+    <Project Path="../Rhombus/Rhombus.csproj" />
+  </Folder>
+  <Folder Name="/03/">
+    <Project Path="../MatrixMultiplication/MatrixMultiplication.csproj" />
+  </Folder>
+  <Project Path="AppliedLogic.csproj" />
+</Solution>
