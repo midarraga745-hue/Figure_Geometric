@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/01/">
+    <Project Path="../Shared/Shared.csproj" Id="75ae0044-3967-4edd-a656-6c458112fb32" />
+  </Folder>
+  <Folder Name="/02/">
+    <Project Path="../../../projects/Logic_Applied/Rhombus/Rhombus.csproj" Id="d79cb4ec-134d-4edb-ba6f-a4dfbaba5b0a" />
+  </Folder>
+  <Folder Name="/03/">
+    <Project Path="../../../projects/Logic_Applied/MatrixMultiplication/MatrixMultiplication.csproj" Id="dfe307c9-c2f8-4bf4-9f8d-4afb6c238a23" />
+  </Folder>
+  <Project Path="Logic_Applied.csproj" />
+</Solution>
