@@ -2,5 +2,8 @@
   <Folder Name="/01/">
     <Project Path="Shared/Shared.csproj" Id="5f35ec11-8158-48b9-948f-91159938dbc5" />
   </Folder>
+  <Folder Name="/02/">
+    <Project Path="Rhombus/Rhombus.csproj" Id="149a57d4-f764-425e-a5e1-7d533a04290b" />
+  </Folder>
   <Project Path="Logic_Applied.csproj" />
 </Solution>
