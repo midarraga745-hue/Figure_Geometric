@@ -6,4 +6,5 @@
     <Project Path="Rhombus/Rhombus.csproj" Id="149a57d4-f764-425e-a5e1-7d533a04290b" />
   </Folder>
   <Project Path="Logic_Applied.csproj" />
+  <Project Path="MatrixMultiplication/MatrixMultiplication.csproj" Id="46da5fbf-7ceb-44c4-bbbb-5de9f5bc1ddb" />
 </Solution>
