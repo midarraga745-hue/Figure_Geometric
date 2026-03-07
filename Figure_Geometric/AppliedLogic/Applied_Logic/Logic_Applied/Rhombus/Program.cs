@@ -6,6 +6,7 @@ var options = new List<string> { "s", "n" };
 while (answer == "s")
 {
 
+    object ConsoleExtension = null;
     int n = ConsoleExtension.GetInt("Enter another rhombus: ");
 
 
