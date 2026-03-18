@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Evaluator.Core/Evaluator.Core.csproj" />
+  <Project Path="Evaluator.UI.Console/Evaluator.UI.Console.csproj" />
+  <Project Path="Evaluator.UI.Windows/Evaluator.UI.Windows.csproj" />
+</Solution>
