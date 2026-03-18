@@ -8,7 +8,7 @@ public class ExpressionEvaluator
         return Calculate(postfix);
     }
 
-    // Divide la expresión en tokens (números y operadores)
+    // Divide the espression into tokens(numbers and operators)
     private static List<string> Tokenize(string expression)
     {
         var tokens = new List<string>();
@@ -25,7 +25,7 @@ public class ExpressionEvaluator
                 }
                 tokens.Add(item.ToString());
             }
-            else // es dígito o punto decimal
+            else // is digit or decimal point
             {
                 number += item;
             }
@@ -68,7 +68,7 @@ public class ExpressionEvaluator
                     stack.Push(token);
                 }
             }
-            else // es un número
+            else // It's a number
             {
                 postfix.Add(token);
             }
@@ -105,7 +105,7 @@ public class ExpressionEvaluator
         var stack = new Stack<double>();
         var tokens = postfix.Split(' ');
 
-        foreach (string token in tokens) // <-- FOREACH modificado
+        foreach (string token in tokens) // <-- Foreach modified
         {
             if (token.Length == 1 && IsOperator(token[0]))
             {
@@ -115,7 +115,7 @@ public class ExpressionEvaluator
             }
             else
             {
-                stack.Push(double.Parse(token)); // Soporta 123, 3.14, etc.
+                stack.Push(double.Parse(token)); // Supports 123, 3.14, etc.
             }
         }
 
